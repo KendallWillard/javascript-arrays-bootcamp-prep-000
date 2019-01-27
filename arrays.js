@@ -9,3 +9,11 @@ function destructivelyAddElementToBeginningOfArray(myArr, elem) {
   return myArr
 }
 
+function addElementToEndOfArray(myArr, elem) {
+  return [...myArr, elem]
+}
+
+function destructivelyAddElementToEndOfArray(myArr, elem) {
+  myArr.push(elem) 
+  return myArr
+}
