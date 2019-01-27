@@ -27,4 +27,3 @@ function destructivelyRemoveElementFromBeginningOfArray(myArr) {
   return myArr
 }
 
-function 
