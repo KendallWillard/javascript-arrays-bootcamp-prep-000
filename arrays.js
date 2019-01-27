@@ -35,3 +35,7 @@ function destructivelyRemoveElementFromEndOfArray(myArr) {
   myArr.pop()
   return myArr
 }
+
+function removeElementFromEndOfArray(myArr) {
+  return myArr.slive(0, myArr.length - 1)
+}
